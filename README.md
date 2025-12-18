@@ -81,7 +81,7 @@ Saat kamu tekan `/`, bar kuning akan muncul di bawah.
 ## 📜 Lisensi
 
 Project ini dilindungi oleh **MIT License**.
-Artinya: Bebas kamu pake, kamu modif, kamu jual, atau kamu jadiin bungkus gorengan. Yang penting jangan lupa kredit ke pembuat aslinya (dan Gold Ship).
+Artinya: Bebas kamu pake, kamu modif, kamu jual, atau kamu jadiin bungkus gorengan. Yang penting jangan lupa kredit ke pembuat aslinya (dan GoldShip).
 
 ```text
 MIT License
