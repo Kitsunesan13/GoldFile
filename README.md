@@ -10,7 +10,8 @@
 
 **GoldFile** adalah File Manager berbasis TUI (Text User Interface) yang dibuat dengan keringat, air mata, dan sedikit *chaos*. 
 
-Apa yang bikin spesial? **KITA GAK PAKE LIBRARY `path/filepath` ATAU `strings` UNTUK LOGIKA UTAMA!** Ya, kamu gak salah baca. Fitur search, navigasi, sampai manipulasi string dibuat secara **MANUAL** (Handmade) menggunakan logika *byte array* murni. Kenapa? Karena biar *hardcore* kayak balapan di medan berlumpur! 🚜💨
+Apa yang bikin spesial? **KITA GAK PAKE LIBRARY UI APAPUN!**
+Biasanya orang bikin TUI pake `bubbletea` atau `tview` yang beratnya minta ampun. GoldFile? **Nggak.** Kita nulis *Render Engine* sendiri pake **ANSI Escape Codes** murni. Hasilnya? Aplikasi yang ngebut kayak Gold Ship pas lagi *mood* lari! 🚀💨
 
 ## ✨ Fitur Unggulan (The Gold Specs)
 
