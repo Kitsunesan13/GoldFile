@@ -1,10 +1,10 @@
-<img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/65d1c42e-0f3b-484d-b38b-d0f0d37bb55a" /># 🚢 GoldFile
+# 🚢 GoldFile
 
 > *"Hah? Pake library bawaan? Nggak asik! Kita bikin logika sendiri, Trainer!"* — Gold Ship (probably)
 
-![Gold Ship Funny]([https://i.pinimg.com/originals/85/6d/46/856d46a67f13627ba74962293d052d0a.gif](https://cdn.cdnstep.com/S2avKgB9SUVfsUQxBqN2/cover.thumb256.webp))
-*(Ganti link gambar di atas dengan gambar Gold Ship favoritmu yang lagi pose aneh!)*
+[<img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/1e5a681a-bb7e-422d-bdb1-69271d58e672" />
 
+](https://cdn.cdnstep.com/S2avKgB9SUVfsUQxBqN2/cover.thumb256.webp)
 ---
 
 ## 🧐 Apa ini?!
