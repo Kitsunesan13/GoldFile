@@ -1,8 +1,8 @@
 # 🚢 GoldFile 🐴
 
-> *"Library UI? Siapa butuh Library UI?! Kita rakit engine sendiri, Trainer!"* — Gold Ship
+> *"Library UI? Siapa butuh Library UI?! Kita rakit engine sendiri, Trainer-san!"* — GoldShip
 
-![Gold Ship Joget](https://cdn.cdnstep.com/S2avKgB9SUVfsUQxBqN2/cover.thumb256.webp)
+![Gold Ship bingung](https://cdn.cdnstep.com/S2avKgB9SUVfsUQxBqN2/cover.thumb256.webp)
 ---
 
 ## 🧐 Apa ini?!
@@ -85,4 +85,4 @@ Artinya: Bebas kamu pake, kamu modif, kamu jual, atau kamu jadiin bungkus goreng
 
 ```text
 MIT License
-Copyright (c) 2025 [Nama Kamu / Trainer]
+Copyright (c) 2025 [Kitsunesan13]
