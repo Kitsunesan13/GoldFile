@@ -4,7 +4,6 @@
 
 [<img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/1e5a681a-bb7e-422d-bdb1-69271d58e672" />
 
-](https://cdn.cdnstep.com/S2avKgB9SUVfsUQxBqN2/cover.thumb256.webp)
 ---
 
 ## 🧐 Apa ini?!
