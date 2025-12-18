@@ -1,8 +1,8 @@
-# 🚢 GoldFile (Gold Ship Edition) 🐴
+# 🚢 GoldFile 🐴
 
 > *"Library UI? Siapa butuh Library UI?! Kita rakit engine sendiri, Trainer!"* — Gold Ship
-
-(https://cdn.cdnstep.com/S2avKgB9SUVfsUQxBqN2/cover.thumb256.webp)
+[
+(https://cdn.cdnstep.com/S2avKgB9SUVfsUQxBqN2/cover.thumb256.webp)](https://www.sigstick.com/pack/S2avKgB9SUVfsUQxBqN2-%E2%9C%A8%F0%9D%91%AE%F0%9D%92%90%F0%9D%92%8D%F0%9D%92%85-%F0%9D%92%94%F0%9D%92%89%F0%9D%92%8A%F0%9D%92%91-%F0%9D%92%94%F0%9D%92%95%F0%9D%92%8A%F0%9D%92%84%F0%9D%92%8C%F0%9D%92%86%F0%9D%92%93%F0%9D%92%94-%F0%9D%92%91%F0%9D%92%82%F0%9D%92%84%F0%9D%92%8C%E2%9C%A8)
 ---
 
 ## 🧐 Apa ini?!
