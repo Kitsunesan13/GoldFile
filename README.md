@@ -1,93 +1,87 @@
-# GoldFile
-🛸 GOLD FILE: The "Goru-shi" Edition 🐴
+# 🚢 GoldFile
 
-(Bayangkan gambar ini bergerak di terminalmu!)
+> *"Hah? Pake library bawaan? Nggak asik! Kita bikin logika sendiri, Trainer!"* — Gold Ship (probably)
 
-    "Oi, Trainer! Kenapa pakai File Manager yang membosankan kalau kamu bisa pakai yang EMAS? Ini bukan sekadar alat, ini adalah KARYA SENI yang dibuat dengan keringat, air mata, dan sedikit Yakisoba!" — Gold Ship
+![Gold Ship Funny](https://i.pinimg.com/originals/85/6d/46/856d46a67f13627ba74962293d052d0a.gif)
+*(Ganti link gambar di atas dengan gambar Gold Ship favoritmu yang lagi pose aneh!)*
 
-🧐 Apa ini?!
+---
 
-GoldFile adalah File Manager berbasis TUI (Text User Interface) yang ditulis dengan bahasa Go.
+## 🧐 Apa ini?!
 
-Tapi tunggu dulu... ini bukan File Manager biasa. Ini adalah "The Hardcore Edition". Kenapa? Karena kami menolak menggunakan library bawaan yang memanjakan seperti strings atau filepath. Kami menulis ulang logika pemecah string, pencarian path, dan rekursi DARI NOL (FROM SCRATCH).
+**GoldFile** adalah File Manager berbasis TUI (Text User Interface) yang dibuat dengan keringat, air mata, dan sedikit *chaos*. 
 
-Kenapa? KARENA KITA BISA! 😤
-✨ Fitur Unggulan (Yang Bikin Tetangga Iri)
+Apa yang bikin spesial? **KITA GAK PAKE LIBRARY `path/filepath` ATAU `strings` UNTUK LOGIKA UTAMA!** Ya, kamu gak salah baca. Fitur search, navigasi, sampai manipulasi string dibuat secara **MANUAL** (Handmade) menggunakan logika *byte array* murni. Kenapa? Karena biar *hardcore* kayak balapan di medan berlumpur! 🚜💨
 
-    ⚡ Super Cepat & Ringan: Navigasi secepat Gold Ship lari di trek rumput (kalau lagi mood).
+## ✨ Fitur Unggulan (The Gold Specs)
 
-    🔍 Deep Search System (Manual Logic):
+* **🕵️‍♂️ Deep Search Mode (Recursive):** Cari file sampai ke akar-akarnya! Mendukung filter ganda.
+    Contoh: Ketik `main, .go, import` -> Dia bakal nyari file `main.go` yang isinya ada kata `import`. *Mindblowing!* 🤯
+* **🛠 Handmade Logic:**
+    Tidak ada `strings.Contains` atau `filepath.WalkDir`. Kita nulis fungsi rekursif sendiri. *Zero bloat, 100% pure Go logic.*
+* **🏎 Vim-Style Navigation:**
+    Pake `j` dan `k` buat geser. Mouse? Apa itu mouse? Kita keyboard warrior!
+* **🖼 Image Preview (Waifu Support):**
+    Bisa liat preview gambar langsung di terminal (berkat bantuan `chafa`).
+* **🐍 Anti-Lag Technology:**
+    Folder berat kayak `node_modules` atau `.git` otomatis di-skip. Kita gak mau lemot!
 
-        Cari file sampai ke lubang semut (Sub-folder).
+---
 
-        Bisa filter pakai Koma Logic (Contoh: main, .go, import).
+## 🚀 Cara Install (Gampang Banget)
 
-        Membaca isi file? BISA! (Kami baca 10KB pertama biar gak meledak).
+Pastikan kamu sudah install **Go** (Golang) dan terminal yang support warna-warni.
 
-    🚫 No Helper Libraries: strings.Split? Gak kenal. filepath.Walk? Lemah. Kita pakai fungsi manual buatan tangan yang penuh kasih sayang.
+1.  **Clone repo ini (atau copy kodenya):**
+    ```bash
+    git clone [https://github.com/username-kamu/goldfile.git](https://github.com/username-kamu/goldfile.git)
+    cd goldfile
+    ```
 
-    🖼️ Preview Gambar: Terintegrasi dengan chafa untuk melihat waifu (atau diagram) langsung di terminal.
+2.  **Build Binary-nya:**
+    ```bash
+    go build -o goldfile
+    ```
 
-    ⚙️ Advanced Config: Edit konfigurasi langsung di dalam aplikasi dengan kursor blok yang satisfying.
-
-🛠️ Cara Install (Jangan Sampai Salah!)
-
-Pastikan kamu punya Go (Golang) terinstall. Kalau belum, sana install dulu, jangan malas!
-
-    Clone atau Download folder ini.
-
-    Siapkan Gambar Keramat: Simpan gambar goldship.png (atau gambar apa saja) di folder yang sama, atau atur path-nya nanti di Settings.
-
-    Build:
-    Bash
-
-go build -o goldfile
-
-Jalankan:
-Bash
-
+3.  **Jalankan!**
+    ```bash/zsh
     ./goldfile
+    ```
 
-    Catatan Penting: Kalau kamu pakai Linux, pastikan install chafa dulu biar fitur preview gambarnya jalan. sudo apt install chafa (atau semacamnya).
+> **Catatan Penting:** Agar fitur preview gambar jalan, kamu perlu install **`chafa`** di Linux/Mac kamu (`sudo apt install chafa` atau `brew install chafa`). Kalau gak ada, ya gak muncul gambarnya.
 
-🎮 Cara Main (Controls)
+---
 
-Navigasinya gampang banget, bahkan Mejiro McQueen pun bisa pakai ini:
-Tombol	Fungsi	Komentar Gold Ship
-j / ↓	Turun	Gas pol ke bawah!
-k / ↑	Naik	Balik lagi ke atas.
-/	SEARCH MODE	Fitur paling OP. Ketik main, .go dan lihat keajaibannya.
-Enter	Buka / Edit	Masuk ke folder atau edit file (pake nvim/nano).
-Tab	Preview	Intip isinya tanpa buka.
-Backspace	Back / Parent	Mundur satu langkah (seperti start lari yang telat).
-q	Keluar	"Bye-bye, Trainer!"
-🧠 The "Handmade" Flex
+## 🎮 Kontrol (Cheatsheet)
 
-Di bagian logic.go, kamu akan menemukan keajaiban dunia ke-8. Kami tidak menggunakan import "strings". Kami membuat fungsi sendiri:
+| Tombol | Fungsi | Komentar Gold Ship |
+| :--- | :--- | :--- |
+| `j` / `↓` | Turun | Gas pol ke bawah! |
+| `k` / `↑` | Naik | Rem dikit, naik lagi! |
+| `/` | **SEARCH MODE** | *Serious Mode On* 🧐 |
+| `Enter` | Buka Folder/File | Masuk, Pak Eko! |
+| `Backspace` | Kembali (Parent Dir) | Mundur alon-alon. |
+| `Tab` | Preview File | Intip isinya dikit. |
+| `q` | Keluar | Bye bye, Trainer! 👋 |
 
-    manualToLower(): Mengubah huruf besar ke kecil dengan memanipulasi byte ASCII (+32). Hardcore.
+---
 
-    manualSplit(): Memecah string berdasarkan koma dengan loop manual. Artisanal.
+## 🔍 Cara Pakai Search (Rahasia Dapur)
 
-    manualContains(): Mencocokkan substring dengan nested loop. Traditional.
+Saat kamu tekan `/`, bar kuning akan muncul di bawah.
 
-    recursiveWalk(): Menjelajah folder secara rekursif tanpa filepath.WalkDir. Brave.
+* **Cari Nama:** Ketik `json` -> Muncul semua file `.json`.
+* **Cari Isi File:** Ketik nama variabel codinganmu, misal `StateAplikasi`. Dia bakal nyari file yang *isinya* ada kata itu.
+* **Combo Maut (Koma):** Ketik: `utils, .go, func`
+    Artinya: Cari file yang path-nya ada "utils", ekstensinya ".go", DAN isinya ada kata "func".
 
-Ini bukan Spaghetti Code, ini adalah Yakisoba Code! Enak dan mengenyangkan.
-⚙️ Konfigurasi
+---
 
-File config akan otomatis dibuat di: ~/.config/goldfile/config.json
+## 📜 Lisensi
 
-Kamu bisa ganti:
+Project ini dilindungi oleh **MIT License**.
+Artinya: Bebas kamu pake, kamu modif, kamu jual, atau kamu jadiin bungkus gorengan. Yang penting jangan lupa kredit ke pembuat aslinya (dan Gold Ship).
 
-    Editor: Mau pakai vim, nano, atau helix? Bebas.
-
-    Dialogues: Ganti kata-kata mutiara Gold Ship sesuka hatimu.
-
-    Theme: Ubah warna kalau bosan dengan tema Tokyo Night bawaan.
-
-📜 License
-
-Dilindungi oleh Gold Ship Protection Squad. Boleh dicopy, dimodifikasi, asal jangan lupa beli Yakisoba pas ngoding.
-
-"Sekarang, kembali bekerja Trainer! Jangan lupa kasih bintang (Star) di repo ini atau aku tendang!" 🦶✨
+```text
+MIT License
+Copyright (c) 2025 [Kitsunesan13]
