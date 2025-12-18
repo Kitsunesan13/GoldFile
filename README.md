@@ -1,4 +1,4 @@
-# 🚢 GoldFile 🐴
+# 🚢 GoldFile 
 
 > *"Library UI? Siapa butuh Library UI?! Kita rakit engine sendiri, Trainer-san!"* — GoldShip
 
@@ -64,7 +64,7 @@ Pastikan kamu sudah install **Go** (Golang).
 | `Enter` | Buka Folder/File | Masuk, Pak Eko! |
 | `Backspace` | Kembali (Parent Dir) | Mundur alon-alon. |
 | `Tab` | Preview File | Intip isinya dikit. |
-| `q` | Keluar | Bye bye, Trainer! 👋 |
+| `q` | Keluar | Bye bye, Trainer-san! 👋 |
 
 ---
 
