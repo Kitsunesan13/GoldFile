@@ -1,54 +1,57 @@
-# 🚢 GoldFile
+# 🚢 GoldFile (Gold Ship Edition) 🐴
 
-> *"Hah? Pake library bawaan? Nggak asik! Kita bikin logika sendiri, Trainer!"* — Gold Ship (probably)
-
-[<img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/1e5a681a-bb7e-422d-bdb1-69271d58e672" />
+> *"Library UI? Siapa butuh Library UI?! Kita rakit engine sendiri, Trainer!"* — Gold Ship
+[
+https://cdn.cdnstep.com/S2avKgB9SUVfsUQxBqN2/cover.thumb256.webp
 
 ---
 
 ## 🧐 Apa ini?!
 
-**GoldFile** adalah File Manager berbasis TUI (Text User Interface) yang dibuat dengan keringat, air mata, dan sedikit *chaos*. 
+**GoldFile** adalah File Manager berbasis TUI (Text User Interface) yang super ringan.
 
 Apa yang bikin spesial? **KITA GAK PAKE LIBRARY UI APAPUN!**
 Biasanya orang bikin TUI pake `bubbletea` atau `tview` yang beratnya minta ampun. GoldFile? **Nggak.** Kita nulis *Render Engine* sendiri pake **ANSI Escape Codes** murni. Hasilnya? Aplikasi yang ngebut kayak Gold Ship pas lagi *mood* lari! 🚀💨
 
 ## ✨ Fitur Unggulan (The Gold Specs)
 
-* **🕵️‍♂️ Deep Search Mode (Recursive):** Cari file sampai ke akar-akarnya! Mendukung filter ganda.
-    Contoh: Ketik `main, .go, import` -> Dia bakal nyari file `main.go` yang isinya ada kata `import`. *Mindblowing!* 🤯
-* **🛠 Handmade Logic:**
-    Tidak ada `strings.Contains` atau `filepath.WalkDir`. Kita nulis fungsi rekursif sendiri. *Zero bloat, 100% pure Go logic.*
-* **🏎 Vim-Style Navigation:**
-    Pake `j` dan `k` buat geser. Mouse? Apa itu mouse? Kita keyboard warrior!
+* **🧠 Smart Recursive Search:**
+    Bukan cuma cari nama file, tapi bisa cari sampai ke **Isi File-nya** (Content Grep) dan masuk ke sub-folder dalam-dalam!
+* **🔍 Multi-Filter Logic:**
+    Pake logika koma (`,`) buat filter berlapis.
+    Contoh: `main, .go, import` 👉 Cari file `main.go` yang di dalamnya ada kata `import`. *Cerdas kan?* 🧐
+* **⚡ Zero Bloat UI:**
+    Tampilan antarmuka dibuat manual pixel-per-pixel (eh, char-per-char) di terminal. Tanpa dependensi aneh-aneh.
+* **🛡️ Anti-Lag Protocol:**
+    Pencarian otomatis menghindari "Folder Terkutuk" kayak `node_modules`, `.git`, atau `vendor`. Laptopmu gak bakal *hang*!
 * **🖼 Image Preview (Waifu Support):**
-    Bisa liat preview gambar langsung di terminal (berkat bantuan `chafa`).
-* **🐍 Anti-Lag Technology:**
-    Folder berat kayak `node_modules` atau `.git` otomatis di-skip. Kita gak mau lemot!
+    Preview gambar langsung di terminal via `chafa`.
+* **🏎 Vim-Style Navigation:**
+    Navigasi sat-set pake `j` dan `k`.
 
 ---
 
-## 🚀 Cara Install (Gampang Banget)
+## 🚀 Cara Install
 
-Pastikan kamu sudah install **Go** (Golang) dan terminal yang support warna-warni.
+Pastikan kamu sudah install **Go** (Golang).
 
-1.  **Clone repo ini (atau copy kodenya):**
+1.  **Clone & Masuk Folder:**
     ```bash
     git clone [https://github.com/username-kamu/goldfile.git](https://github.com/username-kamu/goldfile.git)
     cd goldfile
     ```
 
-2.  **Build Binary-nya:**
+2.  **Build Binary:**
     ```bash
     go build -o goldfile
     ```
 
-3.  **Jalankan!**
-    ```bash/zsh
+3.  **Jalankan:**
+    ```bash
     ./goldfile
     ```
 
-> **Catatan Penting:** Agar fitur preview gambar jalan, kamu perlu install **`chafa`** di Linux/Mac kamu (`sudo apt install chafa` atau `brew install chafa`). Kalau gak ada, ya gak muncul gambarnya.
+> **Catatan:** Install `chafa` dulu kalau mau liat gambar (`sudo apt install chafa`).
 
 ---
 
@@ -70,10 +73,9 @@ Pastikan kamu sudah install **Go** (Golang) dan terminal yang support warna-warn
 
 Saat kamu tekan `/`, bar kuning akan muncul di bawah.
 
-* **Cari Nama:** Ketik `json` -> Muncul semua file `.json`.
-* **Cari Isi File:** Ketik nama variabel codinganmu, misal `StateAplikasi`. Dia bakal nyari file yang *isinya* ada kata itu.
-* **Combo Maut (Koma):** Ketik: `utils, .go, func`
-    Artinya: Cari file yang path-nya ada "utils", ekstensinya ".go", DAN isinya ada kata "func".
+1.  **Cari Nama:** Ketik `json` -> Muncul semua file `.json`.
+2.  **Cari Isi File:** Lupa nama file tapi ingat isinya? Ketik aja variabelnya, misal `StateAplikasi`. Ketemu deh!
+3.  **Combo Maut:** Ketik `utils, .go` -> Cari semua file `.go` di dalam folder/subfolder `utils`.
 
 ---
 
@@ -84,4 +86,4 @@ Artinya: Bebas kamu pake, kamu modif, kamu jual, atau kamu jadiin bungkus goreng
 
 ```text
 MIT License
-Copyright (c) 2025 [Kitsunesan13]
+Copyright (c) 2025 [Nama Kamu / Trainer]
