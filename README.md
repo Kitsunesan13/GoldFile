@@ -2,8 +2,8 @@
 
 > *"Library UI? Siapa butuh Library UI?! Kita rakit engine sendiri, Trainer!"* — Gold Ship
 
-https://cdn.cdnstep.com/S2avKgB9SUVfsUQxBqN2/cover.thumb256.webp
-
+[https://cdn.cdnstep.com/S2avKgB9SUVfsUQxBqN2/cover.thumb256.webp
+](https://cdn.cdnstep.com/S2avKgB9SUVfsUQxBqN2/cover.thumb256.webp)
 ---
 
 ## 🧐 Apa ini?!
