@@ -68,8 +68,7 @@ Pastikan kamu sudah install **Go** (Golang).
 
 ---
 
-## 🔍 Cara Pakai Search (Rahasia Dapur)
-
+## 🔍 Cara Pakai Search
 Saat kamu tekan `/`, bar kuning akan muncul di bawah.
 
 1.  **Cari Nama:** Ketik `json` -> Muncul semua file `.json`.
